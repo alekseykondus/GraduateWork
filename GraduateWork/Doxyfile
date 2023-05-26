@@ -1,0 +1,23 @@
+PROJECT_NAME = "Example"
+INPUT = D:/User/GitHub/python-2021-2022-semester-2-lab6
+RECURSIVE = YES
+GENERATE_HTML = YES
+GENERATE_HTML = YES
+EXCLUDE = .git \
+.idea \
+__pycache__ \
+venv \
+.vscode \
+dist \
+build \
+*.pyc \
+*.pyo \
+*.pyd \
+*.pyz \
+*.pyw \
+*.egg-info \
+*.egg \
+*.dist-infoHTML_OUTPUT = /content/drive/MyDrive/docs/python-2021-2022-semester-2-lab6/html/
+LATEX_OUTPUT = /content/drive/MyDrive/docs/python-2021-2022-semester-2-lab6/latex/
+EXTRACT_ALL = YES
+echo "FILTER_PATTERNS = *.py=doxypypy"
